@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #F3F1FF;
+}
+
+/* header part start */
+.header {
+    background-color: #562EFF;
+    width: 100vw;
+    display: flex;
+    height: 15vh;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.logo h1 {
+    color: white;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 3em;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+#ul {
+    display: flex;
+    margin-right: 150px;
+}
+
+ul li {
+    list-style: none;
+    position: relative;
+    left: 375px;
+    top: 25%;
+}
+
+ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#mypic {
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    border-radius: 50%;
+}
+
+/* header part end */
+/* top player part start */
+.top-section {
+    width: 70%;
+    margin: 50px auto 0;
+    padding-top: 50px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.top-section:hover {
+    border: 3px solid blue;
+}
+
+.topplayer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 95%;
+    margin: 0 auto;
+}
+
+.jamela1 img {
+    width: 100px;
+}
+
+.toplekha {
+    color: #562EFF;
+    margin: 0 0 40px 50px;
+}
+
+.toplekha:hover {
+    text-decoration: underline;
+}
+
+.jamela1 {
+    display: flex;
+}
+
+.jamela1 h1 {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+hr {
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+/* .container-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} */
+
+
+
+/* top player part end */

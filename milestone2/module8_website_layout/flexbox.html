@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Flexbox</title>
+    <style>
+        .container {
+            border: 2px dotted purple;
+            display: flex;
+            height: 600px;
+            justify-content: center;
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+            /* align-items: flex-end; */
+            align-items: center;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            align-items: stretch;
+
+        }
+
+        #box-2 {
+            flex-grow: 1;
+        }
+
+        .box {
+            width: 150px;
+
+            border: 1px dashed palegreen;
+            font-weight: 700;
+            font-size: 3em;
+            color: palevioletred;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div id="box-2" class="box">box-2</div>
+
+    </div>
+</body>
+
+</html>
